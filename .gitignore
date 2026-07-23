@@ -1,3 +1,4 @@
 node_modules/
 .expo/
 src/hymnals/mhalamhala.ts
+.claude/
