@@ -1,0 +1,37 @@
+{
+  "expo": {
+    "name": "Bibele Xichangana",
+    "slug": "bibele-xichangana",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "bibele",
+    "splash": {
+      "backgroundColor": "#EDE4D3",
+      "resizeMode": "contain"
+    },
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.bibele.xichangana"
+    },
+    "android": {
+      "package": "com.bibele.xichangana",
+      "adaptiveIcon": {
+        "backgroundColor": "#8A5A3C"
+      },
+      "permissions": [
+        "android.permission.RECORD_AUDIO",
+        "android.permission.MODIFY_AUDIO_SETTINGS"
+      ]
+    },
+    "plugins": [
+      "expo-audio",
+      "expo-asset"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "26e979dc-207b-47d0-b953-1239812dc22d"
+      }
+    }
+  }
+}
